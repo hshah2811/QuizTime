@@ -63,6 +63,8 @@
 		064FE55F183D2CBF00FE68F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 064FE55D183D2CBF00FE68F4 /* InfoPlist.strings */; };
 		064FE561183D2CBF00FE68F4 /* QuizTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 064FE560183D2CBF00FE68F4 /* QuizTimeTests.m */; };
 		064FE570183D333300FE68F4 /* iphone_alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 064FE56F183D333300FE68F4 /* iphone_alarm.mp3 */; };
+		0676DE2F188EFA5900368FCE /* Light_Bulb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0676DE2E188EFA5900368FCE /* Light_Bulb@2x.png */; };
+		0676DE31188EFAC500368FCE /* Alarm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0676DE30188EFAC500368FCE /* Alarm@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -165,6 +167,8 @@
 		064FE55E183D2CBF00FE68F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		064FE560183D2CBF00FE68F4 /* QuizTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTimeTests.m; sourceTree = "<group>"; };
 		064FE56F183D333300FE68F4 /* iphone_alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iphone_alarm.mp3; sourceTree = "<group>"; };
+		0676DE2E188EFA5900368FCE /* Light_Bulb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Light_Bulb@2x.png"; sourceTree = "<group>"; };
+		0676DE30188EFAC500368FCE /* Alarm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Alarm@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +249,8 @@
 		063C6FD018773C2000220E75 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				0676DE30188EFAC500368FCE /* Alarm@2x.png */,
+				0676DE2E188EFA5900368FCE /* Light_Bulb@2x.png */,
 				06255EA7187818CA007545D2 /* basic_add.png */,
 				063C6FD918773C8200220E75 /* check@2x.png */,
 				063C6FDA18773C8200220E75 /* cross@2x.png */,
@@ -496,11 +502,13 @@
 			files = (
 				063C6FA318773BB600220E75 /* SAT_QUESTION_SET.plist in Resources */,
 				063C6FD818773C3600220E75 /* 17.png in Resources */,
+				0676DE2F188EFA5900368FCE /* Light_Bulb@2x.png in Resources */,
 				064FE54E183D2CBF00FE68F4 /* Images.xcassets in Resources */,
 				063C6FD418773C2A00220E75 /* quizbtn.jpg in Resources */,
 				063C6FA218773BB600220E75 /* QUIZ_CATEGORY.plist in Resources */,
 				063C6FD618773C2A00220E75 /* alarm.jpg in Resources */,
 				063C6FD518773C2A00220E75 /* alarm-icon.png in Resources */,
+				0676DE31188EFAC500368FCE /* Alarm@2x.png in Resources */,
 				06255EA01877F3DA007545D2 /* ItemView.xib in Resources */,
 				063C6FA118773BB600220E75 /* GK_QUESTION_SET.plist in Resources */,
 				064FE570183D333300FE68F4 /* iphone_alarm.mp3 in Resources */,

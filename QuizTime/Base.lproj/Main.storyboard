@@ -5,21 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
-        <scene sceneID="mUd-H2-v9v">
-            <objects>
-                <navigationController definesPresentationContext="YES" id="jL0-Cp-64a" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Wrc-hc-Rly">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="RQU-LV-20P"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hmk-8h-jDk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-570" y="-658"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="rsb-7Z-Nct">
             <objects>
@@ -31,14 +16,45 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="ExA-0P-mEW" kind="relationship" relationship="viewControllers" id="pyh-Um-5Fj"/>
-                        <segue destination="R9i-bl-i51" kind="relationship" relationship="viewControllers" id="2FK-VX-Ws3"/>
-                        <segue destination="GQL-Cd-sCf" kind="relationship" relationship="viewControllers" id="uWb-Gm-Gkg"/>
+                        <segue destination="2OR-J2-Bf3" kind="relationship" relationship="viewControllers" id="JKv-AH-Grr"/>
+                        <segue destination="0yX-HW-aZV" kind="relationship" relationship="viewControllers" id="Tl8-iq-Cho"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Pw-p0-O2q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-293" y="85"/>
+        </scene>
+        <!--Navigation Controller - Quiz-->
+        <scene sceneID="sre-9M-Oi6">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="0yX-HW-aZV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Quiz" image="Light_Bulb.png" id="oLG-DD-4Bh"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wX7-eS-pkW">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="6Pa-xD-WMk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Efj-U3-NbQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="257" y="389"/>
+        </scene>
+        <!--Navigation Controller - Reminder-->
+        <scene sceneID="Plp-im-JDg">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="2OR-J2-Bf3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Reminder" image="Alarm.png" id="ImC-wc-3EO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vna-38-zAq">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ExA-0P-mEW" kind="relationship" relationship="rootViewController" id="uFc-gn-WN9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bt9-Yc-TvE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="306" y="-392"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -52,15 +68,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xQ9-q4-dTW">
-                                <rect key="frame" x="88" y="73" width="142" height="156"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="alarm-icon.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M1p-dJ-7qV">
-                                <rect key="frame" x="89" y="256" width="142" height="156"/>
+                                <rect key="frame" x="98" y="206" width="142" height="156"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="quizbtn.jpg">
                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -75,12 +84,15 @@
                     <navigationItem key="navigationItem" id="6sP-xA-tXC"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <segue destination="R9i-bl-i51" kind="custom" identifier="QuestionView" id="RS6-hw-5dV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-138" y="-658"/>
+            <point key="canvasLocation" x="739" y="377"/>
         </scene>
-        <!--Question View Controller - Item-->
+        <!--Question View Controller - Current Quiz-->
         <scene sceneID="iLH-aq-cE9">
             <objects>
                 <viewController storyboardIdentifier="QuestionViewController" id="R9i-bl-i51" customClass="QuestionViewController" sceneMemberID="viewController">
@@ -138,15 +150,9 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="5sC-b8-Rwu"/>
+                    <tabBarItem key="tabBarItem" title="Current Quiz" id="5sC-b8-Rwu"/>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="pWM-mN-b6L">
-                        <barButtonItem key="leftBarButtonItem" title="Back" style="done" id="f1y-bC-ySg">
-                            <connections>
-                                <action selector="backClicked:" destination="R9i-bl-i51" id="5Vm-h9-fcH"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="pWM-mN-b6L"/>
                     <connections>
                         <outlet property="qOption1" destination="uGq-Zy-0fe" id="21S-jP-JqQ"/>
                         <outlet property="qOption2" destination="CTn-xe-CwW" id="6ch-22-kF1"/>
@@ -154,11 +160,12 @@
                         <outlet property="qOption4" destination="f15-IC-mrD" id="P5b-3M-6vB"/>
                         <outlet property="qText" destination="ydz-ge-z2C" id="HvK-1u-tk6"/>
                         <outlet property="questionView" destination="eon-kY-oH1" id="NPe-3p-dz5"/>
+                        <segue destination="GQL-Cd-sCf" kind="push" identifier="scoreboard" id="VZ2-1m-Ymw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wzO-nj-sFR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="348" y="278"/>
+            <point key="canvasLocation" x="1158" y="377"/>
         </scene>
         <!--Score Board View Controller - Item-->
         <scene sceneID="mVq-6t-bcw">
@@ -257,9 +264,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f3N-P7-A67" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="377" y="821"/>
+            <point key="canvasLocation" x="1586" y="383"/>
         </scene>
-        <!--Quiz Reminder Table View Controller - Item-->
+        <!--Quiz Reminder Table View Controller - Reminder-->
         <scene sceneID="dqv-7a-QW1">
             <objects>
                 <tableViewController id="ExA-0P-mEW" customClass="QuizReminderTableViewController" sceneMemberID="viewController">
@@ -340,7 +347,7 @@
                             <outlet property="delegate" destination="ExA-0P-mEW" id="cx0-Im-HLn"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="e2f-4k-tgs"/>
+                    <tabBarItem key="tabBarItem" title="Reminder" image="Alarm.png" id="e2f-4k-tgs"/>
                     <navigationItem key="navigationItem" id="LZT-LK-XmR"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
@@ -350,7 +357,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6r8-i5-0CH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="316" y="-361"/>
+            <point key="canvasLocation" x="776" y="-383"/>
         </scene>
         <!--Remind Me View Controller - Title-->
         <scene sceneID="lGK-FA-y5S">
@@ -442,11 +449,12 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sKD-RV-Q1P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1143" y="-361"/>
+            <point key="canvasLocation" x="1243" y="-383"/>
         </scene>
     </scenes>
     <resources>
-        <image name="alarm-icon.png" width="128" height="128"/>
+        <image name="Alarm.png" width="25" height="24"/>
+        <image name="Light_Bulb.png" width="17" height="27"/>
         <image name="basic_add.png" width="72" height="72"/>
         <image name="check.png" width="23" height="20"/>
         <image name="cross.png" width="20" height="20"/>

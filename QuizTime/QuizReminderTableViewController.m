@@ -50,15 +50,22 @@
     manager = [QuizCategoryManager new];
     notificationManager = [NotificationManager new];
    
-    UIBarButtonItem *leftBtn = [[UIBarButtonItem alloc] initWithTitle:@"Back"
+   /* UIBarButtonItem *leftBtn = [[UIBarButtonItem alloc] initWithTitle:@"Back"
                                                                 style:UIBarButtonItemStyleDone target:self action:@selector(backClicked:)];
     [leftBtn setTintColor:[UIColor blackColor]];
     
     self.navigationItem.leftBarButtonItem = leftBtn;
-    self.title = @"Quiz Reminders";
+    self.title = @"Quiz Reminders";*/
 
   
-     [super viewDidLoad];
+    
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"17.png"] forBarMetrics:UIBarMetricsDefault];
+    UIImage *bck = [UIImage imageNamed:@"bg.png"];
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:bck]];
+   
+    [super viewDidLoad];
+
+
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

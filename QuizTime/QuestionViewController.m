@@ -205,12 +205,25 @@
 }
 -(void)pushScoreBoard
 {
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    ScoreBoardViewController *scoreBoardViewController = (ScoreBoardViewController *)[storyboard instantiateViewControllerWithIdentifier:@"ScoreBoardViewController"];
-    scoreBoardViewController.q_categoryId = qSetManager.qCategory;
-    [self.navigationController pushViewController:scoreBoardViewController animated:YES];
+    
+    [self performSegueWithIdentifier:@"scoreboard" sender:self];
+//    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//    ScoreBoardViewController *scoreBoardViewController = (ScoreBoardViewController *)[storyboard instantiateViewControllerWithIdentifier:@"ScoreBoardViewController"];
+//    scoreBoardViewController.q_categoryId = qSetManager.qCategory;
+//    [self.navigationController pushViewController:scoreBoardViewController animated:YES];
     return;
     
+}
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    
+   if([[segue identifier] isEqualToString:@"scoreboard"])
+    {
+        // Get reference to the destination view controller
+        ScoreBoardViewController *vc = [segue destinationViewController];
+        vc.q_categoryId = qSetManager.qCategory;
+        
+    }
 }
 - (void)doPublicCATransition:(int)tag
 {
