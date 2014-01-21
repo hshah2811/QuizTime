@@ -7,15 +7,34 @@
 //
 
 #import "AppDelegate.h"
+#import "AppStateHandler.h"
+#import "QuizCategory.h"
+#import "QuizCategoryManager.h"
+#import "Question.h"
 
 @implementation AppDelegate
-
+@synthesize notificationId;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [AppStateHandler loadDataFromPlistIfRequired];
+    
+    
+    UILocalNotification *localNotification = launchOptions[UIApplicationLaunchOptionsLocalNotificationKey];
+    if (localNotification)
+    {
+        
+        notificationId = [localNotification.userInfo objectForKey:@"notificationId"];
+        
+    }
+    else
+    {
+        notificationId = nil;
+    }
+    [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
+    
     // Override point for customization after application launch.
     return YES;
 }
-							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -42,5 +61,18 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
+-(void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
+{
+    NSString* categoryId = [notification.userInfo objectForKey:@"categoryId"];
+    
+    QuizCategory *cat = [[QuizCategoryManager new] getCategoryById:categoryId];
+    NSString *message = [NSString stringWithFormat:@"Its time for %@ quiz.",cat.categoryName];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Reminder"
+                                                        message:message
+                                                       delegate:nil
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
+	[alertView show];
+    
+}
 @end

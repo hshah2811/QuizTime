@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>question_set</key>
+	<array>
+		<dict>
+			<key>qID</key>
+			<string>QId1</string>
+			<key>qContent</key>
+			<string>Microsoft?</string>
+			<key>option1</key>
+			<string>iOS</string>
+			<key>option2</key>
+			<string>Android</string>
+			<key>option3</key>
+			<string>Windows</string>
+			<key>option4</key>
+			<string>Linux</string>
+			<key>correctAnswer</key>
+			<string>Windows</string>
+		</dict>
+		<dict>
+			<key>qID</key>
+			<string>QId2</string>
+			<key>qContent</key>
+			<string>Social network?</string>
+			<key>option1</key>
+			<string>iMessage</string>
+			<key>option2</key>
+			<string>Facebook</string>
+			<key>option3</key>
+			<string>Skype</string>
+			<key>option4</key>
+			<string>Instagram</string>
+			<key>correctAnswer</key>
+			<string>Facebook</string>
+		</dict>
+		<dict>
+			<key>qID</key>
+			<string>QId3</string>
+			<key>qContent</key>
+			<string>Who invented microprocessor ? </string>
+			<key>option1</key>
+			<string>Joseph Jacquard</string>
+			<key>option2</key>
+			<string>Herman H Goldstein</string>
+			<key>option3</key>
+			<string>Marcian E Huff</string>
+			<key>option4</key>
+			<string>George Boole</string>
+			<key>correctAnswer</key>
+			<string>Marcian E Huff</string>
+		</dict>
+		<dict>
+			<key>qID</key>
+			<string>QId4</string>
+			<key>qContent</key>
+			<string>Who co - founded Hotmail in 1996 and then sold the company to microsoft ?</string>
+			<key>option1</key>
+			<string>Shawn Fanning
+</string>
+			<key>option2</key>
+			<string>Ada Byron Lovelace</string>
+			<key>option3</key>
+			<string>Ray Tomlinson</string>
+			<key>option4</key>
+			<string>Sabeer Bhatia</string>
+			<key>correctAnswer</key>
+			<string>Sabeer Bhatia</string>
+		</dict>
+		<dict>
+			<key>qID</key>
+			<string>QId5</string>
+			<key>qContent</key>
+			<string>The term CRM means ?</string>
+			<key>option1</key>
+			<string>Customer Relationship Management</string>
+			<key>option2</key>
+			<string>Customer Retention Manager</string>
+			<key>option3</key>
+			<string>Customer&apos;s Relative Meet</string>
+			<key>option4</key>
+			<string>Channel Root Market</string>
+			<key>correctAnswer</key>
+			<string>Customer Relationship Management</string>
+		</dict>
+	</array>
+</dict>
+</plist>

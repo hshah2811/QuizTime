@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>categories</key>
+	<array>
+		<dict>
+			<key>categoryId</key>
+			<string>GK</string>
+			<key>categoryName</key>
+			<string>General Knowledge</string>
+			<key>fallsUnder</key>
+			<string>intellegent</string>
+		</dict>
+		<dict>
+			<key>categoryId</key>
+			<string>SAT</string>
+			<key>categoryName</key>
+			<string>SAT</string>
+			<key>fallsUnder</key>
+			<string>Math</string>
+		</dict>
+		<dict>
+			<key>categoryId</key>
+			<string>TECHNO</string>
+			<key>categoryName</key>
+			<string>Technology</string>
+			<key>fallsUnder</key>
+			<string>intellegent</string>
+		</dict>
+	</array>
+</dict>
+</plist>

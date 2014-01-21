@@ -7,6 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06140E92184527D90029E8B9 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 06140E91184527D90029E8B9 /* libsqlite3.0.dylib */; };
+		06255EA01877F3DA007545D2 /* ItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06255E9F1877F3DA007545D2 /* ItemView.xib */; };
+		06255EA3187810DC007545D2 /* QuizReminderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06255EA2187810DC007545D2 /* QuizReminderTableViewController.m */; };
+		06255EA6187811AE007545D2 /* QuizReminderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06255EA5187811AE007545D2 /* QuizReminderCell.m */; };
+		06255EA8187818CA007545D2 /* basic_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 06255EA7187818CA007545D2 /* basic_add.png */; };
+		063C6FA118773BB600220E75 /* GK_QUESTION_SET.plist in Resources */ = {isa = PBXBuildFile; fileRef = 063C6F9D18773BB600220E75 /* GK_QUESTION_SET.plist */; };
+		063C6FA218773BB600220E75 /* QUIZ_CATEGORY.plist in Resources */ = {isa = PBXBuildFile; fileRef = 063C6F9E18773BB600220E75 /* QUIZ_CATEGORY.plist */; };
+		063C6FA318773BB600220E75 /* SAT_QUESTION_SET.plist in Resources */ = {isa = PBXBuildFile; fileRef = 063C6F9F18773BB600220E75 /* SAT_QUESTION_SET.plist */; };
+		063C6FA418773BB600220E75 /* TECHNO_QUESTION_SET.plist in Resources */ = {isa = PBXBuildFile; fileRef = 063C6FA018773BB600220E75 /* TECHNO_QUESTION_SET.plist */; };
+		063C6FB918773BCC00220E75 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FA718773BCC00220E75 /* Question.m */; };
+		063C6FBA18773BCC00220E75 /* QuizCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FA918773BCC00220E75 /* QuizCategory.m */; };
+		063C6FBB18773BCC00220E75 /* QuizNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FAB18773BCC00220E75 /* QuizNotification.m */; };
+		063C6FBC18773BCC00220E75 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FAF18773BCC00220E75 /* FMDatabase.m */; };
+		063C6FBD18773BCC00220E75 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FB118773BCC00220E75 /* FMDatabaseAdditions.m */; };
+		063C6FBE18773BCC00220E75 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FB318773BCC00220E75 /* FMDatabasePool.m */; };
+		063C6FBF18773BCC00220E75 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FB518773BCC00220E75 /* FMDatabaseQueue.m */; };
+		063C6FC018773BCC00220E75 /* fmdb.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FB618773BCC00220E75 /* fmdb.m */; };
+		063C6FC118773BCC00220E75 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FB818773BCC00220E75 /* FMResultSet.m */; };
+		063C6FCB18773BF400220E75 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FC218773BF400220E75 /* QuestionViewController.m */; };
+		063C6FCC18773BF400220E75 /* ScoreBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FC318773BF400220E75 /* ScoreBoardViewController.m */; };
+		063C6FCD18773BF400220E75 /* RemindMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FC718773BF400220E75 /* RemindMeViewController.m */; };
+		063C6FCE18773BF400220E75 /* UMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FC818773BF400220E75 /* UMTableViewCell.m */; };
+		063C6FD418773C2A00220E75 /* quizbtn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 063C6FD118773C2A00220E75 /* quizbtn.jpg */; };
+		063C6FD518773C2A00220E75 /* alarm-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 063C6FD218773C2A00220E75 /* alarm-icon.png */; };
+		063C6FD618773C2A00220E75 /* alarm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 063C6FD318773C2A00220E75 /* alarm.jpg */; };
+		063C6FD818773C3600220E75 /* 17.png in Resources */ = {isa = PBXBuildFile; fileRef = 063C6FD718773C3600220E75 /* 17.png */; };
+		063C6FDC18773C8200220E75 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 063C6FD918773C8200220E75 /* check@2x.png */; };
+		063C6FDD18773C8200220E75 /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 063C6FDA18773C8200220E75 /* cross@2x.png */; };
+		063C6FDE18773C8200220E75 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 063C6FDB18773C8200220E75 /* bg@2x.png */; };
+		063C6FEB18773CA200220E75 /* AppStateHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FE118773CA200220E75 /* AppStateHandler.m */; };
+		063C6FEC18773CA200220E75 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FE318773CA200220E75 /* DatabaseManager.m */; };
+		063C6FED18773CA200220E75 /* NotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FE518773CA200220E75 /* NotificationManager.m */; };
+		063C6FEE18773CA200220E75 /* QuestionSetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FE718773CA200220E75 /* QuestionSetManager.m */; };
+		063C6FEF18773CA200220E75 /* QuizCategoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FE918773CA200220E75 /* QuizCategoryManager.m */; };
+		063C6FF318773D1100220E75 /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FF218773D1100220E75 /* SwipeView.m */; };
+		063C700218773D5D00220E75 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FF718773D5D00220E75 /* NSMutableArray+SWUtilityButtons.m */; };
+		063C700318773D5D00220E75 /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FF918773D5D00220E75 /* SWCellScrollView.m */; };
+		063C700418773D5D00220E75 /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FFB18773D5D00220E75 /* SWLongPressGestureRecognizer.m */; };
+		063C700518773D5D00220E75 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FFD18773D5D00220E75 /* SWTableViewCell.m */; };
+		063C700618773D5D00220E75 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C6FFF18773D5D00220E75 /* SWUtilityButtonTapGestureRecognizer.m */; };
+		063C700718773D5D00220E75 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 063C700118773D5D00220E75 /* SWUtilityButtonView.m */; };
 		064FE536183D2CBF00FE68F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064FE535183D2CBF00FE68F4 /* Foundation.framework */; };
 		064FE538183D2CBF00FE68F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064FE537183D2CBF00FE68F4 /* CoreGraphics.framework */; };
 		064FE53A183D2CBF00FE68F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064FE539183D2CBF00FE68F4 /* UIKit.framework */; };
@@ -21,6 +62,7 @@
 		064FE557183D2CBF00FE68F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 064FE539183D2CBF00FE68F4 /* UIKit.framework */; };
 		064FE55F183D2CBF00FE68F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 064FE55D183D2CBF00FE68F4 /* InfoPlist.strings */; };
 		064FE561183D2CBF00FE68F4 /* QuizTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 064FE560183D2CBF00FE68F4 /* QuizTimeTests.m */; };
+		064FE570183D333300FE68F4 /* iphone_alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 064FE56F183D333300FE68F4 /* iphone_alarm.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +76,75 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06140E91184527D90029E8B9 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		06255E9F1877F3DA007545D2 /* ItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemView.xib; sourceTree = "<group>"; };
+		06255EA1187810DC007545D2 /* QuizReminderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizReminderTableViewController.h; sourceTree = "<group>"; };
+		06255EA2187810DC007545D2 /* QuizReminderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizReminderTableViewController.m; sourceTree = "<group>"; };
+		06255EA4187811AE007545D2 /* QuizReminderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizReminderCell.h; sourceTree = "<group>"; };
+		06255EA5187811AE007545D2 /* QuizReminderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizReminderCell.m; sourceTree = "<group>"; };
+		06255EA7187818CA007545D2 /* basic_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basic_add.png; sourceTree = "<group>"; };
+		063C6F9D18773BB600220E75 /* GK_QUESTION_SET.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GK_QUESTION_SET.plist; sourceTree = "<group>"; };
+		063C6F9E18773BB600220E75 /* QUIZ_CATEGORY.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QUIZ_CATEGORY.plist; sourceTree = "<group>"; };
+		063C6F9F18773BB600220E75 /* SAT_QUESTION_SET.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SAT_QUESTION_SET.plist; sourceTree = "<group>"; };
+		063C6FA018773BB600220E75 /* TECHNO_QUESTION_SET.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TECHNO_QUESTION_SET.plist; sourceTree = "<group>"; };
+		063C6FA618773BCC00220E75 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		063C6FA718773BCC00220E75 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		063C6FA818773BCC00220E75 /* QuizCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizCategory.h; sourceTree = "<group>"; };
+		063C6FA918773BCC00220E75 /* QuizCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizCategory.m; sourceTree = "<group>"; };
+		063C6FAA18773BCC00220E75 /* QuizNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizNotification.h; sourceTree = "<group>"; };
+		063C6FAB18773BCC00220E75 /* QuizNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizNotification.m; sourceTree = "<group>"; };
+		063C6FAE18773BCC00220E75 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		063C6FAF18773BCC00220E75 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		063C6FB018773BCC00220E75 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		063C6FB118773BCC00220E75 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		063C6FB218773BCC00220E75 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		063C6FB318773BCC00220E75 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		063C6FB418773BCC00220E75 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		063C6FB518773BCC00220E75 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		063C6FB618773BCC00220E75 /* fmdb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fmdb.m; sourceTree = "<group>"; };
+		063C6FB718773BCC00220E75 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		063C6FB818773BCC00220E75 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		063C6FC218773BF400220E75 /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
+		063C6FC318773BF400220E75 /* ScoreBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreBoardViewController.m; sourceTree = "<group>"; };
+		063C6FC418773BF400220E75 /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
+		063C6FC518773BF400220E75 /* ScoreBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreBoardViewController.h; sourceTree = "<group>"; };
+		063C6FC618773BF400220E75 /* UMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMTableViewCell.h; sourceTree = "<group>"; };
+		063C6FC718773BF400220E75 /* RemindMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindMeViewController.m; sourceTree = "<group>"; };
+		063C6FC818773BF400220E75 /* UMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMTableViewCell.m; sourceTree = "<group>"; };
+		063C6FC918773BF400220E75 /* RemindMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindMeViewController.h; sourceTree = "<group>"; };
+		063C6FD118773C2A00220E75 /* quizbtn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = quizbtn.jpg; sourceTree = "<group>"; };
+		063C6FD218773C2A00220E75 /* alarm-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarm-icon.png"; sourceTree = "<group>"; };
+		063C6FD318773C2A00220E75 /* alarm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alarm.jpg; sourceTree = "<group>"; };
+		063C6FD718773C3600220E75 /* 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 17.png; sourceTree = "<group>"; };
+		063C6FD918773C8200220E75 /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
+		063C6FDA18773C8200220E75 /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
+		063C6FDB18773C8200220E75 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		063C6FE018773CA200220E75 /* AppStateHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStateHandler.h; sourceTree = "<group>"; };
+		063C6FE118773CA200220E75 /* AppStateHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStateHandler.m; sourceTree = "<group>"; };
+		063C6FE218773CA200220E75 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		063C6FE318773CA200220E75 /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
+		063C6FE418773CA200220E75 /* NotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationManager.h; sourceTree = "<group>"; };
+		063C6FE518773CA200220E75 /* NotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationManager.m; sourceTree = "<group>"; };
+		063C6FE618773CA200220E75 /* QuestionSetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionSetManager.h; sourceTree = "<group>"; };
+		063C6FE718773CA200220E75 /* QuestionSetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionSetManager.m; sourceTree = "<group>"; };
+		063C6FE818773CA200220E75 /* QuizCategoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizCategoryManager.h; sourceTree = "<group>"; };
+		063C6FE918773CA200220E75 /* QuizCategoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizCategoryManager.m; sourceTree = "<group>"; };
+		063C6FEA18773CA200220E75 /* ProjectConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectConstants.h; sourceTree = "<group>"; };
+		063C6FF118773D1100220E75 /* SwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeView.h; sourceTree = "<group>"; };
+		063C6FF218773D1100220E75 /* SwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeView.m; sourceTree = "<group>"; };
+		063C6FF518773D5D00220E75 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		063C6FF618773D5D00220E75 /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		063C6FF718773D5D00220E75 /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		063C6FF818773D5D00220E75 /* SWCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCellScrollView.h; sourceTree = "<group>"; };
+		063C6FF918773D5D00220E75 /* SWCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCellScrollView.m; sourceTree = "<group>"; };
+		063C6FFA18773D5D00220E75 /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		063C6FFB18773D5D00220E75 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		063C6FFC18773D5D00220E75 /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		063C6FFD18773D5D00220E75 /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		063C6FFE18773D5D00220E75 /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		063C6FFF18773D5D00220E75 /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		063C700018773D5D00220E75 /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
+		063C700118773D5D00220E75 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
 		064FE532183D2CBF00FE68F4 /* QuizTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		064FE535183D2CBF00FE68F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		064FE537183D2CBF00FE68F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +164,7 @@
 		064FE55C183D2CBF00FE68F4 /* QuizTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuizTimeTests-Info.plist"; sourceTree = "<group>"; };
 		064FE55E183D2CBF00FE68F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		064FE560183D2CBF00FE68F4 /* QuizTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTimeTests.m; sourceTree = "<group>"; };
+		064FE56F183D333300FE68F4 /* iphone_alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iphone_alarm.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06140E92184527D90029E8B9 /* libsqlite3.0.dylib in Frameworks */,
 				064FE538183D2CBF00FE68F4 /* CoreGraphics.framework in Frameworks */,
 				064FE53A183D2CBF00FE68F4 /* UIKit.framework in Frameworks */,
 				064FE536183D2CBF00FE68F4 /* Foundation.framework in Frameworks */,
@@ -79,9 +192,122 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		063C6F9C18773BB600220E75 /* ExternalResources */ = {
+			isa = PBXGroup;
+			children = (
+				063C6F9D18773BB600220E75 /* GK_QUESTION_SET.plist */,
+				063C6F9E18773BB600220E75 /* QUIZ_CATEGORY.plist */,
+				063C6F9F18773BB600220E75 /* SAT_QUESTION_SET.plist */,
+				063C6FA018773BB600220E75 /* TECHNO_QUESTION_SET.plist */,
+			);
+			path = ExternalResources;
+			sourceTree = "<group>";
+		};
+		063C6FA518773BCC00220E75 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				063C6FA618773BCC00220E75 /* Question.h */,
+				063C6FA718773BCC00220E75 /* Question.m */,
+				063C6FA818773BCC00220E75 /* QuizCategory.h */,
+				063C6FA918773BCC00220E75 /* QuizCategory.m */,
+				063C6FAA18773BCC00220E75 /* QuizNotification.h */,
+				063C6FAB18773BCC00220E75 /* QuizNotification.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		063C6FAC18773BCC00220E75 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				063C6FAD18773BCC00220E75 /* src */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		063C6FAD18773BCC00220E75 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				063C6FAE18773BCC00220E75 /* FMDatabase.h */,
+				063C6FAF18773BCC00220E75 /* FMDatabase.m */,
+				063C6FB018773BCC00220E75 /* FMDatabaseAdditions.h */,
+				063C6FB118773BCC00220E75 /* FMDatabaseAdditions.m */,
+				063C6FB218773BCC00220E75 /* FMDatabasePool.h */,
+				063C6FB318773BCC00220E75 /* FMDatabasePool.m */,
+				063C6FB418773BCC00220E75 /* FMDatabaseQueue.h */,
+				063C6FB518773BCC00220E75 /* FMDatabaseQueue.m */,
+				063C6FB618773BCC00220E75 /* fmdb.m */,
+				063C6FB718773BCC00220E75 /* FMResultSet.h */,
+				063C6FB818773BCC00220E75 /* FMResultSet.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		063C6FD018773C2000220E75 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				06255EA7187818CA007545D2 /* basic_add.png */,
+				063C6FD918773C8200220E75 /* check@2x.png */,
+				063C6FDA18773C8200220E75 /* cross@2x.png */,
+				063C6FDB18773C8200220E75 /* bg@2x.png */,
+				063C6FD718773C3600220E75 /* 17.png */,
+				063C6FD118773C2A00220E75 /* quizbtn.jpg */,
+				063C6FD218773C2A00220E75 /* alarm-icon.png */,
+				063C6FD318773C2A00220E75 /* alarm.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		063C6FDF18773CA200220E75 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				063C6FE018773CA200220E75 /* AppStateHandler.h */,
+				063C6FE118773CA200220E75 /* AppStateHandler.m */,
+				063C6FE218773CA200220E75 /* DatabaseManager.h */,
+				063C6FE318773CA200220E75 /* DatabaseManager.m */,
+				063C6FE418773CA200220E75 /* NotificationManager.h */,
+				063C6FE518773CA200220E75 /* NotificationManager.m */,
+				063C6FE618773CA200220E75 /* QuestionSetManager.h */,
+				063C6FE718773CA200220E75 /* QuestionSetManager.m */,
+				063C6FE818773CA200220E75 /* QuizCategoryManager.h */,
+				063C6FE918773CA200220E75 /* QuizCategoryManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		063C6FF018773D1100220E75 /* SwipeView */ = {
+			isa = PBXGroup;
+			children = (
+				063C6FF118773D1100220E75 /* SwipeView.h */,
+				063C6FF218773D1100220E75 /* SwipeView.m */,
+			);
+			path = SwipeView;
+			sourceTree = "<group>";
+		};
+		063C6FF418773D5D00220E75 /* PodFiles */ = {
+			isa = PBXGroup;
+			children = (
+				063C6FF518773D5D00220E75 /* Constants.h */,
+				063C6FF618773D5D00220E75 /* NSMutableArray+SWUtilityButtons.h */,
+				063C6FF718773D5D00220E75 /* NSMutableArray+SWUtilityButtons.m */,
+				063C6FF818773D5D00220E75 /* SWCellScrollView.h */,
+				063C6FF918773D5D00220E75 /* SWCellScrollView.m */,
+				063C6FFA18773D5D00220E75 /* SWLongPressGestureRecognizer.h */,
+				063C6FFB18773D5D00220E75 /* SWLongPressGestureRecognizer.m */,
+				063C6FFC18773D5D00220E75 /* SWTableViewCell.h */,
+				063C6FFD18773D5D00220E75 /* SWTableViewCell.m */,
+				063C6FFE18773D5D00220E75 /* SWUtilityButtonTapGestureRecognizer.h */,
+				063C6FFF18773D5D00220E75 /* SWUtilityButtonTapGestureRecognizer.m */,
+				063C700018773D5D00220E75 /* SWUtilityButtonView.h */,
+				063C700118773D5D00220E75 /* SWUtilityButtonView.m */,
+			);
+			path = PodFiles;
+			sourceTree = "<group>";
+		};
 		064FE529183D2CBF00FE68F4 = {
 			isa = PBXGroup;
 			children = (
+				064FE56E183D333300FE68F4 /* Sounds */,
+				064FE56A183D30CB00FE68F4 /* Notifier */,
 				064FE53B183D2CBF00FE68F4 /* QuizTime */,
 				064FE55A183D2CBF00FE68F4 /* QuizTimeTests */,
 				064FE534183D2CBF00FE68F4 /* Frameworks */,
@@ -101,6 +327,7 @@
 		064FE534183D2CBF00FE68F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				06140E91184527D90029E8B9 /* libsqlite3.0.dylib */,
 				064FE535183D2CBF00FE68F4 /* Foundation.framework */,
 				064FE537183D2CBF00FE68F4 /* CoreGraphics.framework */,
 				064FE539183D2CBF00FE68F4 /* UIKit.framework */,
@@ -112,6 +339,23 @@
 		064FE53B183D2CBF00FE68F4 /* QuizTime */ = {
 			isa = PBXGroup;
 			children = (
+				06255E9F1877F3DA007545D2 /* ItemView.xib */,
+				063C6FF418773D5D00220E75 /* PodFiles */,
+				063C6FF018773D1100220E75 /* SwipeView */,
+				063C6FDF18773CA200220E75 /* Manager */,
+				063C6FEA18773CA200220E75 /* ProjectConstants.h */,
+				063C6FD018773C2000220E75 /* Images */,
+				063C6FC218773BF400220E75 /* QuestionViewController.m */,
+				063C6FC318773BF400220E75 /* ScoreBoardViewController.m */,
+				063C6FC418773BF400220E75 /* QuestionViewController.h */,
+				063C6FC518773BF400220E75 /* ScoreBoardViewController.h */,
+				063C6FC618773BF400220E75 /* UMTableViewCell.h */,
+				063C6FC718773BF400220E75 /* RemindMeViewController.m */,
+				063C6FC818773BF400220E75 /* UMTableViewCell.m */,
+				063C6FC918773BF400220E75 /* RemindMeViewController.h */,
+				063C6FA518773BCC00220E75 /* Objects */,
+				063C6FAC18773BCC00220E75 /* Database */,
+				063C6F9C18773BB600220E75 /* ExternalResources */,
 				064FE544183D2CBF00FE68F4 /* AppDelegate.h */,
 				064FE545183D2CBF00FE68F4 /* AppDelegate.m */,
 				064FE547183D2CBF00FE68F4 /* Main.storyboard */,
@@ -119,6 +363,10 @@
 				064FE54B183D2CBF00FE68F4 /* ViewController.m */,
 				064FE54D183D2CBF00FE68F4 /* Images.xcassets */,
 				064FE53C183D2CBF00FE68F4 /* Supporting Files */,
+				06255EA1187810DC007545D2 /* QuizReminderTableViewController.h */,
+				06255EA2187810DC007545D2 /* QuizReminderTableViewController.m */,
+				06255EA4187811AE007545D2 /* QuizReminderCell.h */,
+				06255EA5187811AE007545D2 /* QuizReminderCell.m */,
 			);
 			path = QuizTime;
 			sourceTree = "<group>";
@@ -150,6 +398,21 @@
 				064FE55D183D2CBF00FE68F4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		064FE56A183D30CB00FE68F4 /* Notifier */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifier;
+			sourceTree = "<group>";
+		};
+		064FE56E183D333300FE68F4 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				064FE56F183D333300FE68F4 /* iphone_alarm.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +462,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = iGEEK;
 				TargetAttributes = {
+					064FE531183D2CBF00FE68F4 = {
+						DevelopmentTeam = U9JAU6F5W4;
+					};
 					064FE552183D2CBF00FE68F4 = {
 						TestTargetID = 064FE531183D2CBF00FE68F4;
 					};
@@ -228,8 +494,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				063C6FA318773BB600220E75 /* SAT_QUESTION_SET.plist in Resources */,
+				063C6FD818773C3600220E75 /* 17.png in Resources */,
 				064FE54E183D2CBF00FE68F4 /* Images.xcassets in Resources */,
+				063C6FD418773C2A00220E75 /* quizbtn.jpg in Resources */,
+				063C6FA218773BB600220E75 /* QUIZ_CATEGORY.plist in Resources */,
+				063C6FD618773C2A00220E75 /* alarm.jpg in Resources */,
+				063C6FD518773C2A00220E75 /* alarm-icon.png in Resources */,
+				06255EA01877F3DA007545D2 /* ItemView.xib in Resources */,
+				063C6FA118773BB600220E75 /* GK_QUESTION_SET.plist in Resources */,
+				064FE570183D333300FE68F4 /* iphone_alarm.mp3 in Resources */,
+				06255EA8187818CA007545D2 /* basic_add.png in Resources */,
+				063C6FDE18773C8200220E75 /* bg@2x.png in Resources */,
 				064FE540183D2CBF00FE68F4 /* InfoPlist.strings in Resources */,
+				063C6FDC18773C8200220E75 /* check@2x.png in Resources */,
+				063C6FDD18773C8200220E75 /* cross@2x.png in Resources */,
+				063C6FA418773BB600220E75 /* TECHNO_QUESTION_SET.plist in Resources */,
 				064FE549183D2CBF00FE68F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +529,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				063C6FCC18773BF400220E75 /* ScoreBoardViewController.m in Sources */,
+				063C700518773D5D00220E75 /* SWTableViewCell.m in Sources */,
+				063C6FF318773D1100220E75 /* SwipeView.m in Sources */,
+				063C6FCE18773BF400220E75 /* UMTableViewCell.m in Sources */,
 				064FE54C183D2CBF00FE68F4 /* ViewController.m in Sources */,
+				063C700218773D5D00220E75 /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				063C6FBA18773BCC00220E75 /* QuizCategory.m in Sources */,
+				063C700618773D5D00220E75 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				063C6FB918773BCC00220E75 /* Question.m in Sources */,
+				063C700718773D5D00220E75 /* SWUtilityButtonView.m in Sources */,
+				063C6FBC18773BCC00220E75 /* FMDatabase.m in Sources */,
+				063C6FBE18773BCC00220E75 /* FMDatabasePool.m in Sources */,
+				063C700318773D5D00220E75 /* SWCellScrollView.m in Sources */,
+				063C6FBF18773BCC00220E75 /* FMDatabaseQueue.m in Sources */,
+				06255EA6187811AE007545D2 /* QuizReminderCell.m in Sources */,
+				063C6FC118773BCC00220E75 /* FMResultSet.m in Sources */,
 				064FE546183D2CBF00FE68F4 /* AppDelegate.m in Sources */,
+				063C6FEE18773CA200220E75 /* QuestionSetManager.m in Sources */,
+				063C6FEF18773CA200220E75 /* QuizCategoryManager.m in Sources */,
+				063C6FED18773CA200220E75 /* NotificationManager.m in Sources */,
+				063C6FEC18773CA200220E75 /* DatabaseManager.m in Sources */,
 				064FE542183D2CBF00FE68F4 /* main.m in Sources */,
+				06255EA3187810DC007545D2 /* QuizReminderTableViewController.m in Sources */,
+				063C700418773D5D00220E75 /* SWLongPressGestureRecognizer.m in Sources */,
+				063C6FC018773BCC00220E75 /* fmdb.m in Sources */,
+				063C6FCD18773BF400220E75 /* RemindMeViewController.m in Sources */,
+				063C6FBB18773BCC00220E75 /* QuizNotification.m in Sources */,
+				063C6FBD18773BCC00220E75 /* FMDatabaseAdditions.m in Sources */,
+				063C6FCB18773BF400220E75 /* QuestionViewController.m in Sources */,
+				063C6FEB18773CA200220E75 /* AppStateHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,12 +683,19 @@
 		064FE565183D2CBF00FE68F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: C-SAM Inc.";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QuizTime/QuizTime-Prefix.pch";
 				INFOPLIST_FILE = "QuizTime/QuizTime-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D6280C36-003A-49A6-8B83-DA93B25A59E7";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,12 +703,19 @@
 		064FE566183D2CBF00FE68F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: C-SAM Inc.";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QuizTime/QuizTime-Prefix.pch";
 				INFOPLIST_FILE = "QuizTime/QuizTime-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D6280C36-003A-49A6-8B83-DA93B25A59E7";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +781,7 @@
 				064FE566183D2CBF00FE68F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		064FE567183D2CBF00FE68F4 /* Build configuration list for PBXNativeTarget "QuizTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +790,7 @@
 				064FE569183D2CBF00FE68F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>question_set</key>
+	<array>
+		<dict>
+			<key>qID</key>
+			<string>QId1</string>
+			<key>qContent</key>
+			<string>Hitler party which came into power in 1933 is known as</string>
+			<key>option1</key>
+			<string>Labour Party</string>
+			<key>option2</key>
+			<string>Nazi Party</string>
+			<key>option3</key>
+			<string>Ku-Klux-Klan</string>
+			<key>option4</key>
+			<string>Democratic Party</string>
+			<key>correctAnswer</key>
+			<string>Nazi Party</string>
+		</dict>
+		<dict>
+			<key>qID</key>
+			<string>QId2</string>
+			<key>qContent</key>
+			<string>Philology is the</string>
+			<key>option1</key>
+			<string>study of bones</string>
+			<key>option2</key>
+			<string>study of muscles</string>
+			<key>option3</key>
+			<string>study of architecture</string>
+			<key>option4</key>
+			<string>science of languages</string>
+			<key>correctAnswer</key>
+			<string>science of languages</string>
+		</dict>
+		<dict>
+			<key>qID</key>
+			<string>QId3</string>
+			<key>qContent</key>
+			<string>The 2012 Olympics Games were held in</string>
+			<key>option1</key>
+			<string>London</string>
+			<key>option2</key>
+			<string>Sydney</string>
+			<key>option3</key>
+			<string>Seoul</string>
+			<key>option4</key>
+			<string>Tokyo</string>
+			<key>correctAnswer</key>
+			<string>London</string>
+		</dict>
+		<dict>
+			<key>qID</key>
+			<string>QId4</string>
+			<key>qContent</key>
+			<string>Bird with the largest wing span</string>
+			<key>option1</key>
+			<string>Ostrich</string>
+			<key>option2</key>
+			<string>Albatross</string>
+			<key>option3</key>
+			<string>Eagle</string>
+			<key>option4</key>
+			<string>Pelican</string>
+			<key>correctAnswer</key>
+			<string>Albatross</string>
+		</dict>
+		<dict>
+			<key>qID</key>
+			<string>QId5</string>
+			<key>qContent</key>
+			<string>Longest bone in the human body</string>
+			<key>option1</key>
+			<string>Femur</string>
+			<key>option2</key>
+			<string>Back bone</string>
+			<key>option3</key>
+			<string>Ulna</string>
+			<key>option4</key>
+			<string>Humerus</string>
+			<key>correctAnswer</key>
+			<string>Femur</string>
+		</dict>
+		<dict>
+			<key>qID</key>
+			<string>QId6</string>
+			<key>qContent</key>
+			<string>Most common blood group in humans</string>
+			<key>option1</key>
+			<string>A +</string>
+			<key>option2</key>
+			<string>O</string>
+			<key>option3</key>
+			<string>AB -</string>
+			<key>option4</key>
+			<string>B +</string>
+			<key>correctAnswer</key>
+			<string>O</string>
+		</dict>
+		<dict>
+			<key>qID</key>
+			<string>QId7</string>
+			<key>qContent</key>
+			<string>Who was crowned Miss World 2013?</string>
+			<key>option1</key>
+			<string>Megan Young</string>
+			<key>option2</key>
+			<string>Srishti Rana</string>
+			<key>option3</key>
+			<string>Ersela Kurti</string>
+			<key>option4</key>
+			<string>Maryia Vialichka</string>
+			<key>correctAnswer</key>
+			<string>Megan Young</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>question_set</key>
+	<array>
+		<dict>
+			<key>qID</key>
+			<string>QId1</string>
+			<key>qContent</key>
+			<string>Prime number</string>
+			<key>option1</key>
+			<string>3</string>
+			<key>option2</key>
+			<string>6</string>
+			<key>option3</key>
+			<string>10</string>
+			<key>option4</key>
+			<string>14</string>
+			<key>correctAnswer</key>
+			<string>3</string>
+		</dict>
+		<dict>
+			<key>qID</key>
+			<string>QId2</string>
+			<key>qContent</key>
+			<string>Algorithm?</string>
+			<key>option1</key>
+			<string>Calculation</string>
+			<key>option2</key>
+			<string>Fibonaci</string>
+			<key>option3</key>
+			<string>binary search</string>
+			<key>option4</key>
+			<string>Exponential</string>
+			<key>correctAnswer</key>
+			<string>binary search</string>
+		</dict>
+		<dict>
+			<key>qID</key>
+			<string>QId3</string>
+			<key>qContent</key>
+			<string>If n  is an odd integer, which of the following must be an odd integer?</string>
+			<key>option1</key>
+			<string>n - 1</string>
+			<key>option2</key>
+			<string>4n + 1</string>
+			<key>option3</key>
+			<string>2n</string>
+			<key>option4</key>
+			<string>3n + 1</string>
+			<key>correctAnswer</key>
+			<string>4n + 1</string>
+		</dict>
+		<dict>
+			<key>qID</key>
+			<string>QId4</string>
+			<key>qContent</key>
+			<string>Which of the following is a subset of  {b, c, d}?</string>
+			<key>option1</key>
+			<string>{ }</string>
+			<key>option2</key>
+			<string>{1 , 2 , 3}</string>
+			<key>option3</key>
+			<string>{a, b, c}</string>
+			<key>option4</key>
+			<string>{a}</string>
+			<key>correctAnswer</key>
+			<string>{ }</string>
+		</dict>
+		<dict>
+			<key>qID</key>
+			<string>QId5</string>
+			<key>qContent</key>
+			<string>The value of 5 in the number  357.21 is</string>
+			<key>option1</key>
+			<string>5 tenths</string>
+			<key>option2</key>
+			<string>5 ones</string>
+			<key>option3</key>
+			<string>5 tens</string>
+			<key>option4</key>
+			<string>5 hundreds</string>
+			<key>correctAnswer</key>
+			<string>5 tens</string>
+		</dict>
+		<dict>
+			<key>qID</key>
+			<string>QId6</string>
+			<key>qContent</key>
+			<string>In coordinate geometry, the equation of the x-axis is </string>
+			<key>option1</key>
+			<string>y = x</string>
+			<key>option2</key>
+			<string>y = 0</string>
+			<key>option3</key>
+			<string>x = 0</string>
+			<key>option4</key>
+			<string>y = 1</string>
+			<key>correctAnswer</key>
+			<string>y = 0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

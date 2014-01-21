@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "ProjectConstants.h"
 @interface ViewController : UIViewController
-
+{
+    NSString *quizCategoryToBePresent;
+}
 @end
